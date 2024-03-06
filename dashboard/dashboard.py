@@ -53,7 +53,7 @@ if st.button('Save Changes to CSV'):
     st.success('Data saved successfully!')
 
 # download link
-with open("main_data.csv", "rb") as file:
+with open("dashboard/main_data.csv", "rb") as file:
     st.download_button(
         label="Download CSV",
         data=file,
